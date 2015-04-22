@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rela_homebg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.rbj.browser">
+
+    <RelativeLayout
+        android:id="@+id/home_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/framelayout"
+        android:gravity="center" >
+
+        <GridView
+            android:id="@+id/index_girdview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/autoCompleteTextView"
+            android:columnWidth="1sp"
+            android:gravity="center"
+            android:horizontalSpacing="1dip"
+            android:numColumns="3"
+            android:layout_marginTop="20sp"
+            android:verticalSpacing="15dp" >
+
+        </GridView>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:alpha="0.5"
+            android:background="@drawable/alpha_b"
+            android:completionHint="输入搜索内容"
+            android:completionThreshold="1"
+            android:drawableRight="@drawable/history_title"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/url_input"
+            android:lines="3"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="200sp"
+            android:layout_height="1sp"
+            android:layout_above="@+id/menuhome"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/black" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="120sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:gravity="center" >
+
+        <com.rbj.widget.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.rbj.widget.ViewFlow>
+
+        <LinearLayout
+            android:id="@+id/lunbo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#88252525"
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <com.rbj.widget.CircleFlowIndicator
+                android:id="@+id/viewflowindic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:padding="2dip"
+                app:activeColor="#ff0000"
+                app:activeType="fill"
+                app:circleSeparation="20dip"
+                app:inactiveColor="#ffffff"
+                app:inactiveType="fill"
+                app:radius="4dip" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

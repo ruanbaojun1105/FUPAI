@@ -1,0 +1,54 @@
+# view res/layout/viewpager.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.rbj.bawang.activity.FileTest { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.rbj.bawang.activity.Home { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.rbj.bawang.activity.MainView { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.rbj.bawang.activity.SettingSave { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.rbj.bawang.activity.ShowPicture { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.rbj.bawang.activity.Start { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.rbj.bawang.activity.Welcome_pageviewer { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.rbj.bawang.pages.Bookmark { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.rbj.bawang.pages.History { <init>(...); }
+
+# view res/layout/about_dialog.xml #generated:11
+-keep class com.rbj.bawang.util.AutoScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.rbj.server.InitResorceServer { <init>(...); }
+
+# view res/layout/home_index.xml #generated:84
+-keep class com.rbj.widget.CircleFlowIndicator { <init>(...); }
+
+# view res/layout/welcome.xml #generated:7
+-keep class com.rbj.widget.ObservableScrollView { <init>(...); }
+
+# view res/layout/home_index.xml #generated:69
+-keep class com.rbj.widget.ViewFlow { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class net.youmi.android.AdBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class net.youmi.android.AdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class net.youmi.android.AdService { <init>(...); }
+
